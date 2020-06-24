@@ -1,0 +1,131 @@
+{
+  "users": [
+    {
+      "first_name": "amanii",
+      "last_name": "BEN Salhh",
+      "email": "BENAmani2020@gmail.com",
+      "password": "123456",
+      "image": "https://semantic-ui.com/images/avatar2/large/kristy.png",
+      "id": 3
+    },
+    {
+      "first_name": "manel",
+      "last_name": "boudebana",
+      "email": "BENAmani2020@gmail.com",
+      "password": "123456",
+      "image": "https://semantic-ui.com/images/avatar2/large/kristy.png",
+      "role": "user",
+      "posteOcuper": "Responsable achat",
+      "id": 1
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "password": "",
+      "image": "",
+      "posteOcuper": "",
+      "role": "admin",
+      "dateInscription": "23/06/2020",
+      "id": 4
+    }
+  ],
+  "ListeProduit": [
+    {
+      "name": "oussema",
+      "type": "hasani",
+      "collection": "",
+      "marque": "",
+      "reference": "",
+      "image": "",
+      "prix": "",
+      "quantite": "",
+      "dateajoute": "23/06/2020",
+      "ok": [
+        {
+          "text": "",
+          "date": "23/06/2020, 10:42:00 pm"
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "historique": [
+    {
+      "name": "oussama",
+      "type": "oussama",
+      "collection": "oussama",
+      "marque": "hassani",
+      "reference": "hassani",
+      "image": "https://images.pexels.com/photos/36764/marguerite-daisy-beautiful-beauty.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "prix": "hassani",
+      "quantite": "hassani",
+      "color": "hassani",
+      "dateaction": "22/06/2020",
+      "action": "modification",
+      "id": 1
+    },
+    {
+      "name": "oussama",
+      "type": "oussama",
+      "collection": "oussama",
+      "marque": "hassani",
+      "reference": "hassani",
+      "image": "https://images.pexels.com/photos/36764/marguerite-daisy-beautiful-beauty.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "prix": "hassani",
+      "quantite": "hassani",
+      "color": "hassani",
+      "dateaction": "23/06/2020",
+      "action": "produit suprimer",
+      "id": 2
+    },
+    {
+      "name": "oussema",
+      "type": "hasani",
+      "collection": "",
+      "marque": "",
+      "reference": "",
+      "image": "",
+      "prix": "",
+      "quantite": "",
+      "dateaction": "23/06/2020",
+      "action": "ajoute produit",
+      "id": 3
+    },
+    {
+      "name": "",
+      "type": "",
+      "collection": "",
+      "marque": "",
+      "reference": "",
+      "image": "",
+      "prix": "",
+      "quantite": "",
+      "dateaction": "23/06/2020",
+      "action": "ajoute produit",
+      "id": 4
+    },
+    {
+      "name": "",
+      "type": "",
+      "collection": "",
+      "marque": "",
+      "reference": "",
+      "image": "",
+      "prix": "",
+      "quantite": "",
+      "dateaction": "24/06/2020",
+      "action": "produit suprimer",
+      "id": 5
+    }
+  ],
+  "comentair": [
+    {
+      "id": "x",
+      "iduser": "y",
+      "idproduit": "z",
+      "text": "e",
+      "date": 1202018
+    }
+  ]
+}

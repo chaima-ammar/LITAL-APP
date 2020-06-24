@@ -1,0 +1,191 @@
+body {
+    margin: -5px;
+    padding: -5px;
+}
+
+.paddingmenu {
+    padding-bottom: 2px;
+    border-bottom: 1px solid #da9b62;
+    text-decoration: none;
+}
+
+.paddingmenu :hover {
+    background-color: white;
+    color:#da9b62 ;
+    text-decoration: none;
+}
+
+.menuwidh:hover {
+    background-color: white;
+    color:#da9b62;
+    text-decoration: none;
+}
+
+.menuwidh {
+    background-color: blueviolet;
+}
+
+.centre-item {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Content {
+    margin-top: 60px;
+    padding: 2rem;
+    text-align: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pagination {
+    display: flex;
+    list-style-type: none;
+}
+
+.pagination button,
+.bagroundcolortransparent {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+
+.succes {
+    color: #28a745 !important;
+    border-color: #28a745 !important;
+}
+
+.disabelbutton {
+    display: none !important;
+}
+
+.dispalyflexbettwen {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vertcolor {
+    color: #da9b62;
+    font-size: 20px;
+    padding-left: 35px;
+}
+.vert{
+    color: #da9b62;
+font-size: 20px;
+}
+.colorred{
+    color: #6c584c;
+    font-size: 20px;
+    padding-left: 35px;
+}
+.red{
+    color: #6c584c;
+font-size: 20px;
+}
+.coloryellow{
+    color: #582900;
+    font-size: 20px;
+    padding-left: 35px;
+}
+.yellow{
+    color:#582900;
+    font-size: 20px;  
+}
+.dispalyflex {
+    display: flex;
+}
+
+.widthw10 {
+    width: 15px;
+}
+
+.colorwhite {
+    color: rgb(165, 10, 102) !important;
+}
+
+.flex-warped {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.segment {
+    display: block;
+    padding-left: 100px;
+    padding-right: 150px;
+}
+
+.alignitem {
+    align-items: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.flexinput {
+    display: flex;
+    justify-content: space-around;
+}
+
+.marginletf30 {
+    margin-left: 80px;
+}
+
+.footer {
+    background: #a59891;
+    height: 80px;
+    margin-top: 40px;
+    padding-top: 20px;
+    color: #fff;
+    font-family: 'Futura Std medium';
+    position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.ui.inverted.segment, 
+.ui.primary.inverted.segment{
+    background-color:#695548;
+}
+
+.label{
+    display: block;
+    font-size: .92857143em;
+    font-weight: 700;
+    text-transform: none
+}
+
+.title{
+    color: #6c584c;
+}
+
+.title-gestion-produit{
+    color:  #6c584c;
+}
+
+.select{
+    color: #6c584c;
+    font-weight: bolder;
+}
+
+
+
+.table{
+    color:  #6c584c; 
+}
+
+.role{
+    color:   #6c584c;  
+}

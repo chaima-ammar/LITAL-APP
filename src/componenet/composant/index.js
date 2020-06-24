@@ -1,0 +1,5 @@
+export {default as  Footer }  from './footer'
+export { default as Sidebar }  from './Slidebar'
+export {default as  Navbar}  from './hader'
+export {default as   Background }  from './Baground'
+export {default as   Pagination }  from './pagination'

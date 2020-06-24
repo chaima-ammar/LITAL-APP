@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <link rel="icon" href="http://localhost:3000/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="stylesheet" href="React%20App_files/semantic.css">
+    <link rel="stylesheet" href="React%20App_files/font-awesome.css">
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <link rel="stylesheet" href="React%20App_files/bootstrap.css">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  <style type="text/css">body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+</style><style type="text/css">.paddingmenu  {
+    padding-bottom: 2px;
+    border-bottom: 1px  solid #b7aca5 ;
+  
+}
+
+.paddingmenu :hover{
+background-color: white;
+color : black;
+}
+.menuwidh:hover {
+ background-color: white;
+   color : black;
+    }
+.menuwidh{
+    background-color: blueviolet;
+
+}
+.centre-item{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Content {
+    margin-top: 60px;
+    padding: 2rem;
+    text-align: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pagination {
+    display:flex;
+    list-style-type:none;
+
+}
+.pagination button , .bagroundcolortransparent{
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+
+}
+.succes{
+color: #28a745 !important;
+border-color: #28a745 !important;
+}
+.disabelbutton{
+   display: none !important;
+}
+
+.dispalyflexbettwen{
+    display: flex;
+    justify-content: space-between;
+}
+.bagroundcolortransparent{
+  color:#28a745;
+  font-size: 20px;
+  padding-left: 35px;
+}
+
+.dispalyflex{
+    display: flex;
+}
+.widthw10{
+    width: 15px;
+}
+.colorwhite{
+color: rgb(165, 10, 102) !important;
+}
+
+.flex-warped{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+ .segment{
+     display: block;
+  padding-left: 100px;
+  padding-right:150px;
+ 
+
+}
+.alignitem{
+    align-items: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.flexinput{
+    direction: flex;
+    justify-content: space-around;
+}</style><style type="text/css">.Modal {
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    width: 70%;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    padding: 16px;
+    left: 15%;
+    top: 30%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+}
+
+@media (min-width: 600px) {
+    .Modal {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+}</style><style data-styled="active" data-styled-version="5.1.1">.ebNNeU{width:100%;z-index:100;height:100%;position:fixed;top:0;left:0;background-color:rgba(0,0,0,0.7);opacity:0;visibility:hidden;-webkit-transition:all 0.3s;transition:all 0.3s;}.hCauBx{position:fixed;z-index:555;top:0;left:0;width:80%;background-color:#333;padding:1rem;color:#fff;max-width:300px;height:100%;-webkit-transform:translateX(-100%);-ms-transform:translateX(-100%);transform:translateX(-100%);-webkit-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;}.deitbO{position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}.jjXLLw{-webkit-text-decoration:none;text-decoration:none;color:#fff;font-family:inherit;padding:1em 2rem;font-size:13px;}.jjXLLw:first-of-type{margin-top:50px;}.fHHifw{position:absolute;top:0;right:0;cursor:pointer;padding:10px 35px 16px 0px;}.fHHifw span,.fHHifw span:before,.fHHifw span:after{cursor:pointer;border-radius:1px;height:3px;width:30px;background:white;position:absolute;display:block;content:"";}.fHHifw span{background-color:transparent;}.fHHifw span:before{top:0;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);}.fHHifw span:after{top:0;-webkit-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg);}.bKCuJd{width:100%;color:#fff;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;position:fixed;top:0;left:0;height:60px;padding:0 1rem;background-color:#333;}.eZkjxV{cursor:pointer;padding:10px 35px 16px 0px;}.eZkjxV span,.eZkjxV span:before,.eZkjxV span:after{cursor:pointer;border-radius:1px;height:5px;width:35px;background:white;position:absolute;display:block;content:"";}.eZkjxV span:before{top:-10px;}.eZkjxV span:after{bottom:-10px;}</style></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div><div class="sc-AxgMl bKCuJd"><div class="sc-AxheI eZkjxV"><span></span></div><p>Something here</p></div><div class="sc-AxjAm ebNNeU"></div><div class="sc-AxirZ hCauBx"><div class="sc-AxiKw deitbO"><div class="sc-AxhUy fHHifw"><span></span></div><div class="paddingmenu"><a aria-current="page" class="active" href="http://localhost:3000/"> <div class="sc-AxhCb jjXLLw"><i class="fa fa-users" aria-hidden="true"></i>   Derniere Produit</div></a></div><div class="paddingmenu"><a href="http://localhost:3000/User"> <div class="sc-AxhCb jjXLLw"><i class="fa fa-users" aria-hidden="true"></i>   User</div></a></div><div class="paddingmenu"><a href="http://localhost:3000/Prodact"><div class="sc-AxhCb jjXLLw"> <i class="fa fa-shopping-bag" aria-hidden="true"></i>  Prodact</div></a></div><div class="paddingmenu"><a href="http://localhost:3000/Historique"><div class="sc-AxhCb jjXLLw">  <i class="fa fa-history" aria-hidden="true"></i>  Historique </div></a></div></div></div><div class="Content"><h3 class="centre-item"> Modifier le utilisateur de l'id  1</h3><div class="contenaire bagroundgray"><div class="flexinput" style="display: flex;justify-content: space-around;"><div><label class="field">Name</label><input style="margin-left: 30px;" class="field" type="text" value="x"></div><div><label class="field">Type</label><input class="field" type="text" value="z"><br><br></div><div><label class="field"> Collection</label><input style="margin-left: 30px;" class="field" type="text" value="e"><br></div></div><div class="three fields"><div class="fields"><label class="field">Marque</label><input style="margin-left: 30px;" class="field" type="text"><br><br></div><div class="fields"><label class="field">Reference</label><label class="field" style="margin-left: 5px;">prix</label><input class="field" type="text"><br><br></div></div><button style="margin-top: 30px; margin-left: 350px;" class="ui inverted yellow  button centre-item "></button></div></div></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+  <script src="React%20App_files/bundle.js"></script><script src="React%20App_files/1.js"></script><script src="React%20App_files/main.js"></script>
+
+</body></html>
